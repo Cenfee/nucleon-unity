@@ -1,0 +1,8 @@
+{
+    "xlsx": {
+        "head": 2,
+     "srcPath": "./excel",   "src": "./excel/**/[^~$]*.xlsx",
+        "dest": "./json",
+        "arraySeparator":","
+    }
+}

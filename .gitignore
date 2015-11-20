@@ -1,0 +1,13 @@
+*.meta
+/export
+/client/Nucleon/Library
+/client/Nucleon/Temp
+/client/Nucleon/Assembly-CSharp.csproj
+/client/Nucleon/Nucleon.sln
+/client/Nucleon/Nucleon.userprefs
+/client/Nucleon/Nucleon-csharp.sln
+/client/Nucleon/Assembly-CSharp-Editor.csproj
+/client/Nucleon/Assembly-CSharp-Editor-vs.csproj
+/client/Nucleon/Assembly-CSharp-vs.csproj
+/client/Nucleon/Assembly-UnityScript.unityproj
+/client/Nucleon/Assembly-UnityScript-vs.unityproj

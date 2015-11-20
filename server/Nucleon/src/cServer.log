@@ -1,0 +1,61 @@
+2015/09/17 17:25:13 Listener.go:168: Cli ID assign ok: 0
+2015/09/17 17:25:13 Listener.go:189: 0 cenfee
+2015/09/17 17:25:13 Listener.go:135: b
+2015/09/17 17:25:23 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:56917: i/o timeout
+2015/09/17 17:25:23 Listener.go:51: Client: VerifyKey quit
+2015/09/17 17:25:58 Listener.go:168: Cli ID assign ok: 0
+2015/09/17 17:25:58 Listener.go:189: 0 cenfee
+2015/09/17 17:25:58 Listener.go:135: b
+2015/09/17 17:26:08 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:56996: i/o timeout
+2015/09/17 17:26:08 Listener.go:51: Client: VerifyKey quit
+2015/09/17 17:27:42 Listener.go:168: Cli ID assign ok: 0
+2015/09/17 17:27:42 Listener.go:189: 0 cenfee
+2015/09/17 17:27:42 Listener.go:135: b
+2015/09/17 17:27:52 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:57070: i/o timeout
+2015/09/17 17:27:52 Listener.go:51: Client: VerifyKey quit
+2015/09/17 17:47:18 Listener.go:168: Cli ID assign ok: 0
+2015/09/17 17:47:18 Listener.go:189: 0 cenfee
+2015/09/17 17:47:18 Listener.go:135: b
+2015/09/17 17:47:28 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:49619: i/o timeout
+2015/09/17 17:47:28 Listener.go:51: Client: VerifyKey quit
+2015/09/17 17:47:55 Listener.go:168: Cli ID assign ok: 0
+2015/09/17 17:47:55 Listener.go:189: 0 cenfee
+2015/09/17 17:47:55 Listener.go:135: b
+2015/09/17 17:47:59 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:49677: wsarecv: An existing connection was forcibly closed by the remote host.
+2015/09/17 17:47:59 Listener.go:51: Client: VerifyKey quit
+2015/09/17 17:48:01 Listener.go:168: Cli ID assign ok: 0
+2015/09/17 17:48:01 Listener.go:189: 0 cenfee
+2015/09/17 17:48:01 Listener.go:135: b
+2015/09/17 17:48:03 Listener.go:82: errHead: EOF
+2015/09/17 17:48:03 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:07:53 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:07:53 Listener.go:189: 0 cenfee
+2015/09/18 11:07:53 Listener.go:135: b
+2015/09/18 11:08:03 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:56890: i/o timeout
+2015/09/18 11:08:03 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:09:08 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:09:08 Listener.go:189: 0 cenfee
+2015/09/18 11:09:08 Listener.go:135: b
+2015/09/18 11:09:18 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:56924: i/o timeout
+2015/09/18 11:09:18 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:10:04 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:10:04 Listener.go:189: 0 cenfee
+2015/09/18 11:10:04 Listener.go:135: b
+2015/09/18 11:10:13 Listener.go:82: errHead: EOF
+2015/09/18 11:10:13 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:33:36 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:33:36 Listener.go:189: 0 cenfee
+2015/09/18 11:33:46 Listener.go:82: errHead: EOF
+2015/09/18 11:33:46 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:34:12 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:34:12 Listener.go:189: 0 cenfee
+2015/09/18 11:34:22 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:49708: i/o timeout
+2015/09/18 11:34:22 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:36:42 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:36:42 Listener.go:189: 0 cenfee
+2015/09/18 11:36:52 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:49758: i/o timeout
+2015/09/18 11:36:52 Listener.go:51: Client: VerifyKey quit
+2015/09/18 11:37:18 Listener.go:168: Cli ID assign ok: 0
+2015/09/18 11:37:18 Listener.go:189: 0 cenfee
+2015/09/18 11:37:28 Listener.go:82: errHead: read tcp 192.168.0.101:12340->192.168.0.101:49772: wsarecv: An existing connection was forcibly closed by the remote host.
+2015/09/18 11:37:28 Listener.go:51: Client: VerifyKey quit
