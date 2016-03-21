@@ -14,7 +14,7 @@ namespace game.core.config.monster
 
 		public MonsterConfigControl ()
 		{
-			_monsterJsonData = JsonMapper.ToObject(((TextAsset)AssetManager.getInstance ().getAsset (AssetConstant.COMMON, "Assets/Resources/config/monster/monster")).text);
+			_monsterJsonData = JsonMapper.ToObject(((TextAsset)AssetManager.getInstance ().getAsset (AssetConstant.COMMON, "Assets/Resources/game/monster/monster_config")).text);
 		}
 
 		public MonsterConfig getMonsterConfig(string id)

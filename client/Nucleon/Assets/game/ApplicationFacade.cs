@@ -22,11 +22,6 @@ namespace game
 		public void startup(object app = null)
 		{
 			SendNotification( AppConstant.STARTUP, app );
-
-			if(game.manager.config.ConfigConstant.ONE_SCENE_TEST)
-				SendNotification( game.manager.config.ConfigConstant.ONE_SCENE_TEST_NAME + "Show", app );
-			else
-				SendNotification( game.view.gameplay.GameMediator.NAME + "Show", app );
 		}
 
 		protected override void InitializeController ()

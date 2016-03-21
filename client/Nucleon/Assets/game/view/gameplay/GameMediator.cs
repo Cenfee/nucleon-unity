@@ -48,11 +48,19 @@ namespace game.view.gameplay
 
 		public void show()
 		{
-			SceneManager.getInstance ().switchScene (game.manager.scene.SceneConstant.GAME, null, delegate(object view)            
-			{
-				_view = view as MonoBehaviour;
-			});
-		}
+            game.manager.view.ViewManager.getInstance().showView(game.manager.view.ViewConstant.GAME, new Dictionary<string, object>
+             {
+                {"onComplete", new game.manager.view.ViewManager.onComplete[]
+                    {
+                        delegate(object view)
+                        {
+                           _view = view as MonoBehaviour;
+                            
+                        }
+                    }
+                }
+            });
+        }
 
 		public void hide()
 		{

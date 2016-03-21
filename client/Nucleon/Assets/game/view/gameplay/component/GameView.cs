@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 using LitJson;
@@ -44,9 +44,9 @@ namespace game.view.gameplay.component
 			_bulletSystem.AddComponent<BulletSystem> ();
 
 			//todo
-			//GameObject mapPrefab = (GameObject)AssetManager.getInstance().getAsset(AssetConstant.GAME, "Assets/Resources/game/map/mapPrefab");
-			//_map = GameObject.Instantiate (mapPrefab);
-			_map = GameObject.Find ("Map");
+			GameObject mapPrefab = (GameObject)AssetManager.getInstance().getAsset(AssetConstant.GAME, "Assets/Resources/game/map/mapPrefab");
+			_map = GameObject.Instantiate (mapPrefab);
+			//_map = GameObject.Find ("Map");
 			_map.name = "Map";
 
 			//加载全局元素

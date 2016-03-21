@@ -12,27 +12,22 @@ using LitJson;
 using game.manager.socket;
 using System.Threading;  
 
-public class Main : MonoBehaviour {
+public class SocketTest : MonoBehaviour {
 
 
 	// Use this for initialization
 	void Start () {
 
-		if (Application.loadedLevel == 0 || game.manager.config.ConfigConstant.ONE_SCENE_TEST)
-			game.ApplicationFacade.getInstance ().startup ();
-		else
-			game.manager.scene.SceneManager.getInstance ().sceneLoadCompleteHandler ();
 		
 
 		//Debug.Log (game.manager.asset.AssetConstant.viewAssets ["load"] [0]);
 
-		/**
 		Dictionary<string, object> data = new Dictionary<string, object> ();
 		data ["a"] = "b";
 		data ["aa"] = "1";
 		string dataStr = JsonMapper.ToJson (data);
 		Debug.Log (dataStr);
-**/
+
 
 
 

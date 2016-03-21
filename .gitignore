@@ -1,4 +1,5 @@
 *.meta
+.vs
 /export
 /client/Nucleon/Library
 /client/Nucleon/Temp

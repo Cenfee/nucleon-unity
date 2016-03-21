@@ -28,14 +28,17 @@ namespace game.manager.scene
 
 		}
 
-		public void switchScene(string name, game.manager.view.ViewManager.onProgress progress = null, game.manager.view.ViewManager.onComplete complete = null)
+        public static bool ONE_SCENE_TEST = true;
+        
+        public void switchScene(string name, game.manager.view.ViewManager.onProgress progress = null, game.manager.view.ViewManager.onComplete complete = null)
 		{
 			_name = name;
 			_progress = progress;
 			_complete = complete;
 
-			if (game.manager.config.ConfigConstant.ONE_SCENE_TEST)
-			{
+			if (ONE_SCENE_TEST)//game.manager.config.ConfigConstant.ONE_SCENE_TEST)
+
+            {
 				sceneLoadCompleteHandler ();
 				return;
 			}

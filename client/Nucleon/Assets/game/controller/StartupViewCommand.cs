@@ -8,8 +8,8 @@ namespace game.controller
 		public override void Execute(INotification note)
 		{
 			base.Execute (note);
-
-			Facade.RegisterMediator(new game.view.gameplay.GameMediator());
+            
+            Facade.RegisterMediator(new game.view.gameplay.GameMediator());
 		}
 	}
 	
