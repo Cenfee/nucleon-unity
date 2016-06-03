@@ -34,10 +34,11 @@ namespace Manager.File
             StreamReader sr = null;
             try
             {
-                sr = File.OpenText(path + "//" + name);
+                sr = System.IO.File.OpenText(path + "//" + name);
             }
             catch (Exception e)
             {
+                Manager.Debug.DebugManager.getInstance().error(e);
                 //路径与名称未找到文件则直接返回空
                 return null;
             }
@@ -50,7 +51,7 @@ namespace Manager.File
 
         public void deleteFile(string path, string name)
         {
-            File.Delete(path + "//" + "name");
+            System.IO.File.Delete(path + "//" + "name");
         }
     }
 }

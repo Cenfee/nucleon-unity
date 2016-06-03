@@ -17,17 +17,17 @@ namespace Manager.Debug
 
         public void trace(object value)
         {
-            Debug.Log("[trace] " + value);
+            UnityEngine.Debug.Log("[trace] " + value);
         }
 
         public void warn(object value)
         {
-            Debug.Log("[warn] " + value);
+            UnityEngine.Debug.Log("[warn] " + value);
         }
 
         public void error(object value)
         {
-            Debug.Log("[error] " + value);
+            UnityEngine.Debug.Log("[error] " + value);
         }
 
     }
