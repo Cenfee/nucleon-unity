@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LoginMediator : MonoBehaviour
+public class LoginScene : MonoBehaviour
 {
 
     // Use this for initialization
